@@ -1,0 +1,21 @@
+{
+    "name": "ecs/topseller",
+    "description": "ECS TopSeller Module",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop"],
+    "homepage": "https://ecomstyle.de/",
+    "version": "1.0.0",
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "ecs/TopSeller"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecs\\TopSeller\\": "../../../source/modules/ecs/TopSeller"
+        }
+    }
+}
